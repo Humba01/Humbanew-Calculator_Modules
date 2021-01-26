@@ -18,5 +18,9 @@
   "homepage": "https://github.com/Humba01/Humbanew-Calculator_Modules#readme",
   "devDependencies": {
     "typescript": "^4.1.3"
+  },
+  "dependencies": {
+    "node": "^15.4.0",
+    "rhino": "^5.3.3"
   }
 }

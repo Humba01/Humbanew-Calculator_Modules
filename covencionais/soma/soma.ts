@@ -1,8 +1,14 @@
 const valores: string[] = ["2", "3.0"];
 
-const expressaoIntString: RegExp = /\"\b+\"/ig;
-const expressaoFloatString: RegExp = /\"\b+\.\b+\"/ig;
+const verificaErroTipoUm: RegExp = /(\d+[a-zA-Z]+\d+)/gi;
+const verificaErroTipoDois: RegExp = /(\d+[a-zA-Z]+\d+[a-zA-Z]+)/gi;
 
-console.log(new RegExp(expressaoIntString).test(valores[0]));
+
+
+function testaEntradaUsuario(regex=RegExp||"", tagsParaRegex="", alvoParaAnalise="") {
+  
+
+}
+
 
 const totalDaConta: number = 0;
