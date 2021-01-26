@@ -1,0 +1,22 @@
+{
+  "name": "humbanew-calculator-modules",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Humba01/Humbanew-Calculator_Modules.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Humba01/Humbanew-Calculator_Modules/issues"
+  },
+  "homepage": "https://github.com/Humba01/Humbanew-Calculator_Modules#readme",
+  "devDependencies": {
+    "typescript": "^4.1.3"
+  }
+}
