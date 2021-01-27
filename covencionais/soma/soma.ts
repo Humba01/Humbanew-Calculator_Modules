@@ -1,19 +1,10 @@
-const valores: string[] = ["2", "3.0"];
+const valores: string[] = ["2", "3.5", "32.2", "5"];
 
-const verificaErroTipoUm: RegExp = /(\d+[a-zA-Z]+)/gi;
-const verificaErroTipoDois: RegExp = /(\d+[a-zA-Z]+\d+)/gi;
-const verificaErroTipoTres: RegExp = /(\d+[a-zA-Z]+\d+[a-zA-Z]+)/gi;
-const verificaErroTipoQuatro: RegExp = /([a-zA-Z]+\d+[a-zA-Z]+\d+[a-zA-Z]+)/gi;
-const verificaErroTipoCinco: RegExp = /(\d+[a-zA-Z]+)(\.)(\d+[a-zA-Z]+)/gi;
-const verificaErroTipoSeis: RegExp = /(\d+[a-zA-Z]+\d+)(\.)(\d+[a-zA-Z]+\d+)/gi;
-const verificaErroTipoSete: RegExp = /(\d+[a-zA-Z]+\d+[a-zA-Z]+)(\.)(\d+[a-zA-Z]+\d+[a-zA-Z]+)/gi;
-const verificaErroTipoOito: RegExp = /([a-zA-Z]+\d+[a-zA-Z]+\d+[a-zA-Z]+)(\.)([a-zA-Z]+\d+[a-zA-Z]+\d+[a-zA-Z]+)/gi;
+const tagsDaRegex = "gi";
 
+var total = 0;
 
-function testaEntradaUsuario(regex=RegExp||"", tagsParaRegex="", alvoParaAnalise="") {
-  
-
+for(let v = 0; v < valores.length; v++) {
+    total = total + parseFloat(valores[v]);
+    console.log("Valor Somado:", total);
 }
-
-
-const totalDaConta: number = 0;
