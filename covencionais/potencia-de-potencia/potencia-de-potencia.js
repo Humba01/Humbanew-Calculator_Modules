@@ -1,6 +1,4 @@
 var valorBase1 = "2";
-var valorQuantidadeDePotenciacoes = 0; //2
-var valorLimiteDePotenciacoes = 10;
 var potNvl1 = ["2.5"];
 var potNvl2 = ["5.4"];
 var potNvl3 = ["2.1"];
@@ -16,7 +14,13 @@ function somaValoresDoNvlPotenciacao(nvlPotenciacaoValores, nvlPotenciacao) {
     }
     return totalNvlPotenciacao;
 }
-var resultadoParcial4 = somaValoresDoNvlPotenciacao(potNvl1, 1) * somaValoresDoNvlPotenciacao(potNvl2, 2) * somaValoresDoNvlPotenciacao(potNvl3, 3) * somaValoresDoNvlPotenciacao(potNvl4, 4) * somaValoresDoNvlPotenciacao(potNvl5, 5);
+var comp1 = somaValoresDoNvlPotenciacao(potNvl1, 1);
+var comp2 = somaValoresDoNvlPotenciacao(potNvl2, 2);
+var comp3 = somaValoresDoNvlPotenciacao(potNvl3, 3);
+var comp4 = somaValoresDoNvlPotenciacao(potNvl4, 4);
+var comp5 = somaValoresDoNvlPotenciacao(potNvl5, 5);
+var resultadoParcial4 = comp1 * comp2 * comp3 * comp4 * comp5;
 console.log("Resultado: ", resultadoParcial4);
-var resultado4 = Math.pow(parseFloat(valorBase1), resultadoParcial4);
+var traducaoParaNumero = parseFloat(valorBase1);
+var resultado4 = Math.pow(traducaoParaNumero, resultadoParcial4);
 console.log("Resultado da Operação: ", resultado4);

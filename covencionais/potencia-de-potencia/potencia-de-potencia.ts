@@ -1,9 +1,5 @@
 const valorBase1: string = "2";
 
-const valorQuantidadeDePotenciacoes: number = 0; //2
-
-const valorLimiteDePotenciacoes: number = 10;
-
 const potNvl1: string[] = ["2.5"];
 const potNvl2: string[] = ["5.4"];
 const potNvl3: string[] = ["2.1"];
@@ -21,10 +17,18 @@ function somaValoresDoNvlPotenciacao(nvlPotenciacaoValores=[""], nvlPotenciacao=
   return totalNvlPotenciacao;
 }
 
-let resultadoParcial4 = somaValoresDoNvlPotenciacao(potNvl1, 1) * somaValoresDoNvlPotenciacao(potNvl2, 2) * somaValoresDoNvlPotenciacao(potNvl3, 3) * somaValoresDoNvlPotenciacao(potNvl4, 4) * somaValoresDoNvlPotenciacao(potNvl5, 5);
+let comp1 = somaValoresDoNvlPotenciacao(potNvl1, 1);
+let comp2 = somaValoresDoNvlPotenciacao(potNvl2, 2);
+let comp3 = somaValoresDoNvlPotenciacao(potNvl3, 3);
+let comp4 = somaValoresDoNvlPotenciacao(potNvl4, 4);
+let comp5 = somaValoresDoNvlPotenciacao(potNvl5, 5);
+
+let resultadoParcial4 = comp1 * comp2 * comp3 * comp4 * comp5;
 
 console.log("Resultado: ", resultadoParcial4);
 
-let resultado4 = parseFloat(valorBase1) ** resultadoParcial4;
+let traducaoParaNumero = parseFloat(valorBase1);
+
+let resultado4 = traducaoParaNumero ** resultadoParcial4;
 
 console.log("Resultado da Operação: ", resultado4);
