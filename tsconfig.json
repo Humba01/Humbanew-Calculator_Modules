@@ -7,6 +7,6 @@
     "sourceMap": true
   },
   "files": [
-    "covencionais/soma/soma.ts"
+    "calculator/covencionais/soma/soma.ts"
   ]
 }
