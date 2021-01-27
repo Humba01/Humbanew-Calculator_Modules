@@ -4,5 +4,6 @@ var total = 0;
 
 for(let v = 0; v < valores.length; v++) {
     total = total + parseFloat(valores[v]);
-    console.log("Valor Somado:", total);
 }
+
+console.log("Valor Somado:", total);
