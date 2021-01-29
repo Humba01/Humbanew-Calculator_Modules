@@ -6,7 +6,7 @@ for (var g = 0; g < valoresParaRealizarSecanteHiperbolica.length; g++) {
     }
     else {
         total = total + parseFloat(valoresParaRealizarSecanteHiperbolica[g]);
-        console.log("Valor para realizar o Secante hiperbólica: ", total);
+        console.log("Valor para realizar o secante hiperbólica: ", total);
     }
 }
 var resultado15 = 1 / Math.cosh(total);
