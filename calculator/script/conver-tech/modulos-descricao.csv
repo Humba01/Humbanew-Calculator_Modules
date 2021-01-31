@@ -39,4 +39,6 @@ Nomenclatura:
 `Conversor de ${medidasTech[u]} em Saganbytes`_
 `Conversor de Saganbytes em ${medidasTech[u]}`_
 `Conversor de ${medidasTech[u]} em Jotabytes`_
-`Conversor de Jotabytes em ${medidasTech[u]}`
+`Conversor de Jotabytes em ${medidasTech[u]}`,
+
+Número de Módulos ==> 182.
