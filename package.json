@@ -17,6 +17,7 @@
   },
   "homepage": "https://github.com/Humba01/Humbanew-Calculator_Modules#readme",
   "devDependencies": {
+    "jasmine": "^3.6.4",
     "typescript": "^4.1.3"
   },
   "dependencies": {

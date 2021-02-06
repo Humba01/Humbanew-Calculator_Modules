@@ -1,0 +1,1 @@
+var valores2: string[] = ["20"];
